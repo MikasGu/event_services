@@ -1,0 +1,7 @@
+storage_type: "db_storage"
+file_path: "events.log"
+endpoint_url: "http://localhost:5000/event"
+interval_seconds: 10
+events_file: "events.json"
+db_path: "storage.db"
+port: 5000

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cybercare_event_services"
+version = "0.1.0"
+description = "Services for sending and receiving events"
+authors = ["Mikas Gudzinevičius <gudzineviciusm@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.0.1"
+requests = "^2.25.1"
+pyyaml = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
